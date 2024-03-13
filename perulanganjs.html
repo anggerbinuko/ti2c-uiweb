@@ -1,0 +1,57 @@
+<html>
+    <body>
+        <script>
+            // for(i=0;i<10;i++){
+            //     document.write("i = "+i+"<br/>");
+            // }
+
+            // for(i=10;i>0;i--){
+            //     document.write("i = "+i+"<br/>");
+            // }
+
+            // var ulangi = confirm("Apakah ingin ulangi?");
+            // var counter = 0;
+
+            // while(ulangi){ // >> false  
+            //     var tambah_counter = confirm("Apakah ingin tambah?");
+            //     counter++;
+            //     if(tambah_counter == false){
+            //         ulangi = false;
+            //     }
+            // }
+
+            // document.write("perulangan sudah sebanyak "+counter);
+
+            // var lang = ["Java","Golang","Scala","Kotlin"];
+
+            // for(i=0;i < lang.length;i++){
+            //     document.write("index ke "+i+" adalah "+lang[i]+"<br/>");
+            // }
+
+            // for(i in lang){
+            //     document.write("index ke "+j+" adalah "+lang[j]+"<br/>");
+            // }
+            
+            // delete lang[2];
+            // lang.forEach(function(day){
+            //     document.write(day+"<br/>");
+            //     document.write("=".repeat(20)+"<br/>");
+            // })
+
+            var mahasiswa = []
+
+            mahasiswa.push("Angger");
+            mahasiswa.push("Binuko");
+            mahasiswa.push("Paksi");
+            mahasiswa.push("Walid");
+            document.write(mahasiswa+"<br/>");
+            mahasiswa[2] = "Habibi";
+            document.write(mahasiswa+"<br/>");
+            var filter = mahasiswa.filter(item => item.toLowerCase().includes("bi"));
+            document.write(filter+"<br/>");
+            document.write(mahasiswa.reverse()+"<br/>");
+            
+
+        </script>
+    </body>
+</html>
